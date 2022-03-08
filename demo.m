@@ -10,6 +10,9 @@ addpath(genpath('./functions'));
 rng('default');
 
 %% Load dataset
+% The raw images (raw_images) is assumed to be saved in a tensor of size d by d by n, 
+% where d is the image size and n is the number of images. 
+
 file_name = '/home/yifengf2/projects/MFVDM_cryo_EM_denoise/test_images.mat'; % Replace this with your dataset
 load(file_name);
 raw_images = raw_images(:,:,1:10000); % Assuming the dataset is named 'raw_images'
