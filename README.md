@@ -9,6 +9,6 @@ In MATLAB, Please check
 ~~~
 demo.m 
 ~~~
-which includes the whole processes of denoising by using MFVDM algorithm. 
+in the root directory, which includes an example of the whole denoising processes by using MFVDM algorithm. 
 
 
